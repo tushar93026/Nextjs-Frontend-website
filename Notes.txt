@@ -1,0 +1,51 @@
+- Create three folders inside src folder named components , data and utils.
+- Now create a file music_courses.josn in data folder , and then copy paste content from the github repo.
+- then create a file Navbar.tsx in components folder. And thn we'll add <Navbar /> in layout.tsx file to display on top of every page.
+- Now in this project we'll learn how to use external libraries for components , we'll use Aceternity UI .
+- we'll go on the website and under navbar menu , we'll follow the instructions for installation. 
+step-1 : npm i framer-motion clsx tailwind-merge
+
+step-2 : add util file , create a file names exactly cn.ts as given on website and paste the code.
+
+step-3 : similarly folow the instructions for components folder.
+
+step-4 : Now since when we hover on navbar it gives the text a outline , active link property , which is the functionality of React , we have to use React. But Next
+doesn't directly allow use of React functionalities , hence we'll add : " use client " on top of Navbar.tsx file.
+
+step-5 ; Now we'll make our Navbar.tsx file with the help of the code given on website of navbar with our own adjutments.
+
+step-6 : Add : darkmode : 'class' : in tailwind.config.js file for truly enabling dark mode. And also add : className ; "dark" : in layout.tsx file in app , in html.
+
+step-7 : now here we're facing a issue that Home is giving a dropdown on hower despite not having any children , hence we have to modify coide and add a condition 
+that is for dropdown there should exist their children in ui/navbar-menu.tsx line 41.
+
+step-8 : Now we'll create a file HeroSection.tsx in components and add it in main page.tsx file to render.
+
+step-9 : Then from website under Spotlight section follow instructions.
+
+step-10 : Then search for : moving borders and follow the instructions and code it.
+
+step-11 : then search for background gradient and follow instructions.
+
+step-12 : then create FeaturedCourses file in components and add it in page.tsx
+
+step-13 : Then we'll cretae our custom datatype Course.
+
+step-14 : then search for ticky Scroll Reveal in website and follow through it.
+
+step-15 : then create a new file in components named WhyChooseUs.tsx
+
+step-16 ; then search for : infinite moving cards then TestimonialCards.tsx then 
+
+step-17 : then search for : Grid and Dot backgroundss , And then copy code from gist.github.com/hiteshchoudhary  and paste it in config.js , instead of method
+given on website.
+
+sþep-18 : then create : UpcomingWebinars.tsx in comoponents and then search on ui website : card hover effect , then intigrate it.
+
+step-19 : then search for : animated tooltip and wavy background, and then intigrate them all.
+
+step-20 : Now you'll face error because you are importing images from unsplash , what nextjs does is it wants to configure it in next.config.js.
+
+step-21 : then search for : 3D card effect and intigrate it.
+
+You can also use Shadcn libraries. 
